@@ -14,3 +14,6 @@ social:
     url: https://www.linkedin.com/in/joaofaraco
   - name: github-alt
     url: https://www.github.com/jpfaraco
+
+plugins:
+  - jekyll-target-blank
