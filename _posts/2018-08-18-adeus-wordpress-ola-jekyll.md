@@ -1,5 +1,6 @@
 ---
 title: Adeus Wordpress. Olá Jekyll!
+permalink: adeus-wordpress-ola-jekyll
 layout: post
 ---
 
