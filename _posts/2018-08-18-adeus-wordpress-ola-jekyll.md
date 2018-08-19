@@ -14,7 +14,7 @@ Mas por que resolvi fazer isso? Vamos comparar os dois:
 
 Então, com o Jekyll, em vez de eu escrever um post no painel de administração e publicar o conteúdo pro banco de dados, eu escrevo os posts em formato [Markdown](https://daringfireball.net/projects/markdown/ 'Markdown'), e o Jekyll compila os arquivos .html das páginas estáticas.
 
-![](/assets/images/joaofaraco-jekyll.png)
+![]({{ site.baseurl }}/assets/images/joaofaraco-jekyll.png)
 
 Pode parecer meio inconveniente publicar dessa forma, mas há algumas vantagens:
 
