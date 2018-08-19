@@ -1,5 +1,5 @@
 ---
-title: Fontes de informação e recursos de design que eu acompanho
+title: Fontes de informação e recursos de design
 layout: post
 ---
 Já me perguntaram se eu sou uma pessoa que lê muito. Sempre tenho o prazer de dizer honestamente que <em>sim</em>. Vou compartilhar aqui algumas das fontes de informação e recursos que uso pra me manter em dia com técnicas e conceitos de design e tecnologia.

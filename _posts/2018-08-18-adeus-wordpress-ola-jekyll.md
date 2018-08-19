@@ -1,9 +1,8 @@
 ---
 title: Adeus Wordpress. Olá Jekyll!
+subtitle: Obrigado por me servir por tantos anos, Wordpress. Mas é hora de explorar outra forma de publicar.
 layout: post
 ---
-
-### Obrigado por me servir por tantos anos, Wordpress. Mas é hora de explorar outra forma de publicar.
 
 Desde 2008, meu site roda em uma instalação própria de Wordpress. Não me leve a mal – eu ainda acho o Wordpress a plataforma de gerenciamento de conteúdo mais poderosa que existe. Mas como isso aqui é o meu *sandbox* pessoal, resolvi dar uma sacudida e passar tudo pra conteúdo estático.
 

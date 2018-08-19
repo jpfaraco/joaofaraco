@@ -6,7 +6,7 @@
 
 body {
   font-family: "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
-  font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1440 - 300)));
+  font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1024 - 300)));
   font-weight: 400;
   line-height: 1.5em;
 }
@@ -38,10 +38,6 @@ h3 {
   font-size: calc(16px + (20 - 16) * ((100vw - 360px) / (1024 - 360)));
 }
 
-.body-2 {
-  font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1024 - 360)));
-}
-
 small,
 .caption {
   font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1024 - 360)));
@@ -64,9 +60,6 @@ p, h1, h2, h3, h4, h5, h6, pre {
   h3 {
     font-size: 20px;
   }
-  .body-2 {
-    font-size: 14px;
-  }
   small,
   .caption {
     font-size: 12px;
@@ -85,9 +78,6 @@ p, h1, h2, h3, h4, h5, h6, pre {
   }
   h3 {
     font-size: 16px;
-  }
-  .body-2 {
-    font-size: 12px;
   }
   small,
   .caption {
