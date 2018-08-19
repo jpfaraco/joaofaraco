@@ -4,3 +4,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 sass:
   style: compact
+
+social:
+  - name: twitter
+    url: https://www.twitter.com/jpfaraco
+  - name: youtube
+    url: https://www.youtube.com/user/jpfaraco/
+  - name: linkedin
+    url: https://www.linkedin.com/in/joaofaraco
+  - name: github-alt
+    url: https://www.github.com/jpfaraco

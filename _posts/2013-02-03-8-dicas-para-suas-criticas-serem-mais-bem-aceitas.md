@@ -1,8 +1,8 @@
 ---
 title: 8 dicas para suas críticas serem mais bem aceitas
 layout: post
-
 ---
+
 Todo designer já deve ter passado por uma situação como essa:
 
 ![]({{ site.baseurl }}/assets/images/2013/02/tumblr_ll182tmVd61qi6mzdo1_1280-580x776.jpg)

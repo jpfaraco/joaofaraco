@@ -1,0 +1,7 @@
+{% for item in site.social %}
+  <a href="{{ item.url }}" target="_blank">
+    <span class="icon is-medium">
+      <i class="fab fa-lg fa-{{ item.name }}"></i>
+    </span>
+  </a>
+{% endfor %}
