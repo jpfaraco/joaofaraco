@@ -1,6 +1,6 @@
 title: João Faraco
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://joaofaraco.com.br" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://joaofaraco.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 sass:
   style: compact
