@@ -8,8 +8,8 @@ Desde 2008, meu site roda em uma instalação própria de Wordpress. Não me lev
 
 Mas por que resolvi fazer isso? Vamos comparar os dois:
 
-* O [Wordpress](http://wordpress.org){:target="_blank"} é um sistema bastante complexo, construído em PHP. Todo o conteúdo do site fica em um **banco de dados** MySQL e as páginas do site são geradas **dinamicamente** à partir desse conteúdo. 
-* O [Jekyll](https://jekyllrb.com/){:target="_blank"} é um construtor de **páginas estáticas**. Ele não possui banco de dados, e todos os arquivos são simplesmente HTML estático.
+* O [Wordpress](http://wordpress.org) é um sistema bastante complexo, construído em PHP. Todo o conteúdo do site fica em um **banco de dados** MySQL e as páginas do site são geradas **dinamicamente** à partir desse conteúdo. 
+* O [Jekyll](https://jekyllrb.com/) é um construtor de **páginas estáticas**. Ele não possui banco de dados, e todos os arquivos são simplesmente HTML estático.
 
 Então, com o Jekyll, em vez de eu escrever um post no painel de administração e publicar o conteúdo pro banco de dados, eu escrevo os posts em formato [Markdown](https://daringfireball.net/projects/markdown/ 'Markdown'), e o Jekyll compila os arquivos .html das páginas estáticas.
 
@@ -19,7 +19,10 @@ Pode parecer meio inconveniente publicar dessa forma, mas há algumas vantagens:
 
 * Não preciso mais pagar pela hospedagem – os arquivos ficam num repositório do Github, que é gratuito.
 * A estrutura é mais simples de se manter – nenhum banco de dados e simplesmente arquivos .html, .css e .js.
-* O site é mais rápido, pois o servidor não precisa ficar se comunicando com o banco de dados sempre que carrega uma página.
+* Toda a manutenção é feita via controle de versão, então todo backup acontece automaticamente.
+* O site é mais rápido, pois o servidor não precisa ficar se comunicando com um banco de dados sempre que carrega uma página.
 * Por não ter banco de dados, é muito mais seguro, impedindo que um hacker faça SQL injection, por exemplo.
 
-Também aproveitei para experimentar o [Bulma](https://bulma.io/), como framework de css.
+Ou seja, manter um servidor com PHP + MySQL e uma instalação Wordpress e seus plugins que precisam de constante atualização só pra servir um site que eu atualizo com pouca frequência me parece *overkill*. Eu cheguei a cogitar o Medium, mas pô, esse é o meu domínio pessoal – eu deveria ter controle sobre tudo! 
+
+P.S.: Aproveitei essa migração para experimentar o interessantíssimo [Bulma](https://bulma.io/), como framework de CSS.
