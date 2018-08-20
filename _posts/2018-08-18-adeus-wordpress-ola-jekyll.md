@@ -1,6 +1,7 @@
 ---
 title: Adeus Wordpress. Olá Jekyll!
-subtitle: Obrigado por me servir por tantos anos, Wordpress. Mas é hora de explorar outra forma de publicar.
+subtitle: Obrigado por me servir por tantos anos, Wordpress. Mas é hora de explorar
+  outra forma de publicar.
 layout: post
 ---
 
@@ -25,4 +26,4 @@ Pode parecer meio inconveniente publicar dessa forma, mas há algumas vantagens:
 
 Ou seja, manter um servidor com PHP + MySQL e uma instalação Wordpress e seus plugins que precisam de constante atualização só pra servir um site que eu atualizo com pouca frequência me parece *overkill*. Eu cheguei a cogitar o Medium, mas pô, esse é o meu domínio pessoal – eu deveria ter controle sobre tudo! 
 
-P.S.: Aproveitei essa migração para experimentar o interessantíssimo [Bulma](https://bulma.io/), como framework de CSS.
+P.S.: Aproveitei essa migração para experimentar o interessantíssimo [Bulma](https://bulma.io/), como framework de css.
