@@ -19,9 +19,9 @@ Então, com o Jekyll, em vez de eu escrever um post no painel de administração
 Pode parecer meio inconveniente publicar dessa forma, mas há algumas vantagens:
 
 * Não preciso mais pagar pela hospedagem – os arquivos ficam num repositório do Github, que é gratuito.
-* A estrutura é mais simples de se manter – nenhum banco de dados e simplesmente arquivos .html, .css e .js.
-* Toda a manutenção é feita via controle de versão, então todo backup acontece automaticamente.
-* O site é mais rápido, pois o servidor não precisa ficar se comunicando com um banco de dados sempre que carrega uma página.
+* A estrutura é mais simples de se manter – nenhum banco de dados e menos arquivos para gerenciar.
+* Toda a manutenção é feita via controle de versão, então o backup acontece automaticamente.
+* O site é muito mais rápido, pois o servidor não precisa ficar se comunicando com um banco de dados sempre que carrega uma página.
 * Por não ter banco de dados, é muito mais seguro, impedindo que um hacker faça SQL injection, por exemplo.
 
 Ou seja, manter um servidor com PHP + MySQL e uma instalação Wordpress e seus plugins que precisam de constante atualização só pra servir um site que eu atualizo com pouca frequência me parece *overkill*. Eu cheguei a cogitar o Medium, mas pô, esse é o meu domínio pessoal – eu deveria ter controle sobre tudo! 
