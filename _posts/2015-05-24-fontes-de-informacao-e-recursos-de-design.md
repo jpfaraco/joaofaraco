@@ -2,6 +2,7 @@
 title: Fontes de informação e recursos de design
 layout: post
 ---
+
 Já me perguntaram se eu sou uma pessoa que lê muito. Sempre tenho o prazer de dizer honestamente que <em>sim</em>. Vou compartilhar aqui algumas das fontes de informação e recursos que uso pra me manter em dia com técnicas e conceitos de design e tecnologia.
 
 ### Hacker News
@@ -16,7 +17,7 @@ O sistema é composto de uma lista de artigos submetidos por usuários, em que t
 
 O Designer News é a versão para designers do Hacker News. Mantido pelo defunto Layervault, ele funciona da mesma maneira que o HN, mas o layout é mais amigável e o conteúdo é especificamente voltado a designers. O DN era uma comunidade fechada, em que precisava de um convite para participar das discussões e submeter links, mas recentemente eles abriram o cadastro para quem quiser entrar.
 
-<a href="http://news.layervault.com" title="Designer News" target="_blank">http://news.layervault.com</a> 
+<a href="https://www.designernews.co/" title="Designer News" target="_blank">https://www.designernews.co/</a> 
           
 ### Product Hunt
 
@@ -52,4 +53,4 @@ Mas falando sério, o Quora, por ter começado com uma base de usuários bem res
 
 Pra muita gente, o Twitter é uma rede social. Mas se você segue especialistas em assuntos que você gosta, e outras pessoas com os mesmos gostos, tem uma fonte contínua de informação e de rápida consulta. 280 caracteres é perfeito para as pessoas compartilharem links, fazerem e responderem perguntas e participarem de discussões curtas e focadas.
 
-<a href="http://twitter.com" target="_blank">http://twitter.com</a> 
+<a href="http://twitter.com" target="_blank">http://twitter.com</a>

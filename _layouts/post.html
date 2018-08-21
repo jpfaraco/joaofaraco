@@ -3,12 +3,23 @@
   {% include head.html %}
 <body class="post">
   {% include nav.html %}
+  <section class="hero has-background-white">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          {{ page.title }}
+        </h1>
+        {% if page.subtitle %}
+        <h2 class="subtitle">
+          {{ page.subtitle }}
+        </h2>
+        {% endif %}
+        <p class="is-7 has-text-grey">{{ page.date | date: "%d/%m/%Y" }}</p>
+      </div>
+    </div>
+  </section>
   <section class="section">
     <div class="container">
-      <h1>{{ page.title }}</h1>
-      {% if page.subtitle %}
-        <h3 class="sub-title">{{ page.subtitle }}</h3>
-      {% endif %}
       {{ content }}
     </div>
   </section>
