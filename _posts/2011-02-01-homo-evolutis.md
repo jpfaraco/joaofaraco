@@ -23,7 +23,7 @@ A impressora <a href="http://reprap.org/wiki/Main_Page" target = "_blank">RepRap
 
 O projeto começou na universidade de Bath, na Inglaterra, mas é completamente open-source, permitindo que engenheiros e designers do mundo inteiro colaborem pra criar as próximas versões da RepRap. Versões essas que vão começar a imprimir em cada vez mais materiais diferentes, levando-nos à situação de que possuir um produto significará baixar seu arquivo da internet e imprimí-o em casa, assim como já fazemos com músicas e filmes. Isso significa menos impacto gerado no transporte e armazenamento, e produtos com alto potencial de personalização. O criador Adrian Bowyer explica melhor:
 
-<iframe src="http://player.vimeo.com/video/5202148?byline=0&amp;portrait=0" width="578" height="462" frameborder="0"></iframe>
+<iframe src="https://player.vimeo.com/video/5202148?byline=0&amp;portrait=0" width="578" height="462" frameborder="0"></iframe>
 
 Essas impressoras acessíveis aos meros mortais de hoje ainda são rudimentares quanto a precisão e variedade de materiais, mas isso tudo não está previsto pra evoluir só no futuro distante. Produção caseira é uma realidade cujas contas não deixam sobras, e só dão a entender que o seu filho vai estar imprimindo seu próprio celular em casa, com as funcionalidades que ele escolher. Um pouco como o <a href="http://en.wikipedia.org/wiki/Replicator_(Star_Trek)" target = "_blank">Replicador</a>, de Jornada nas Estrelas.
 
