@@ -21,8 +21,8 @@
         <ul class="myposts">
           {% for post in site.posts %}
           <li>
-            <small class="postDate">{{ post.date | date: "%d/%m/%Y" }}</small>
-            <a href="{{ post.url | prepend:site.baseurl }}" title="{{ post.title}}">{{ post.title}}</a>
+            <span class="postDate has-text-grey-light text-mono">{{ post.date | date: "%m/%Y" }} </span>
+            <a href="{{ post.url | prepend:site.baseurl }}" title="{{ post.title}}"> {{ post.title}}</a>
           </li>
           {% endfor %}
         </ul>
