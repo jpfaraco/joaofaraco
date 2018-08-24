@@ -39,7 +39,7 @@ layout: post
 
 **E se eu transfiro bitcoins pra uma pessoa do outro lado do mundo, como faço pra saber se ela recebeu?**
 
-*– Todas as transações são públicas, e ficam registradas no livro contábil distribuído. Então você pode consultar o *[Blockchain.info](http://https://blockchain.info/)* e buscar pelo endereço da sua carteira, ou pelo ID da transação pra acompanhar as confirmações. Quando você vai fazer uma transferência, você pode estabelecer quanto quer pagar de taxa pros mineradores — quanto mais pagar de taxa, mais rápida vai ser essa confirmação da transação.*
+*– Todas as transações são públicas, e ficam registradas no livro contábil distribuído. Então você pode consultar o **[Blockchain.info](https://blockchain.info/)** e buscar pelo endereço da sua carteira, ou pelo ID da transação pra acompanhar as confirmações. Quando você vai fazer uma transferência, você pode estabelecer quanto quer pagar de taxa pros mineradores — quanto mais pagar de taxa, mais rápida vai ser essa confirmação da transação.*
 
 **Mas esse sistema todo do Bitcoin, não é ilegal? 😬**
 
