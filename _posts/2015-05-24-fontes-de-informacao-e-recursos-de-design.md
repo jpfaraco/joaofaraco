@@ -27,9 +27,9 @@ Mais um dos agregadores de links, com upvotes/downvotes dos usuários, o Product
               
 ### Growth Hackers
 
-Também um agregador de URLs, o Growth Hackers é uma fonte riquíssima de links, cases e discussões sobre marketing digital. Destaque pra seção <a href="http://growthhackers.com/category/must-read/" title="Growth Hackers - Must Read" target="_blank">Must Read</a>, que lista os melhores posts do site.
+Também um agregador de URLs, o Growth Hackers é uma fonte riquíssima de links, cases e discussões sobre marketing digital. Destaque pro filtro <a href="https://growthhackers.com/posts?posts_selected_tab=must_read" title="Growth Hackers - Must Read" target="_blank">Must Read</a>, que lista os posts realmente imperdíveis.
 
-<a href="http://growthhackers.com/" title="Growth Hackers" target="_blank">http://growthhackers.com/</a> 
+<a href="https://growthhackers.com/posts" title="Growth Hackers" target="_blank">https://growthhackers.com/posts</a> 
                   
 ### Skillshare
 
