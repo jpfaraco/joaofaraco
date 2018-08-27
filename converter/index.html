@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html xmlns:fb="http://ogp.me/ns/fb#" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Excel(CSV) – Illustrator XML Converter</title>
+  <meta name="author" content="Shan Carter, João Faraco">
+  
+  <link rel="stylesheet" href="css/converter.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  
+  <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/CSVParser.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/DataGridRenderer.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/converter.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/Controller.js" type="text/javascript" charset="utf-8"></script>
+  
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=109631899054965";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <div id='base'>
+    <div id='header'>
+      <div id="description">
+        <img src="images/CSV-AiXML.png">
+        <h1>CSV-AiXML Converter</h1>
+        <p>Use this tool to convert your Excel data into Adobe Illustrator compatible XML.</p>
+        <p>You can either paste in your comma separated values (CSV), or simply paste the cells straight from Excel</p>
+        <p>This converter was created from <a href="http://shancarter.com/" target = "_blank" class="roll"><span data-title="Shan Carter's">Shan Carter's</span></a> <a href="http://www.shancarter.com/data_converter/index.html" target="_blank" class="roll"><span data-title="Mr. Data Converter">Mr. Data Converter</span></a>.<br>
+           The option to convert to AiXML was added by <a href="https://about.me/jpfaraco" target = "_blank" class="roll"><span data-title="João Faraco">João Faraco</span></a>. </p>
+        <p>Check out Cheryl Graham's quick tip on how to use Variables in Illustrator <a href="http://vector.tutsplus.com/tutorials/tools-tips/quick-tip-data-driven-graphics-using-illustrators-variables-panel/" target = "_blank" class="roll"><span data-title="here">here</span></a>.</p>
+        <p><fb:like href="https://joaofaraco.com.br/converter/" send="true" layout="button_count" width="285" show_faces="true" font="lucida grande"></fb:like><br />
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="jpfaraco" data-lang="en">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+      </div>
+      <div id='settings'>
+        <h3>Settings</h3>
+        <form id='settingsForm'>
+           <p>Convert header: </p>
+            <div class="settingsGroup">
+              <p>
+              <label><input class="settingsElement" type="radio" name="headerModifications" id='headersNoTransform' value="none" checked /> None</label><br>
+              <label><input class="settingsElement" type="radio" name="headerModifications" value="downcase" id='headersDowncase' /> lowercase</label><br>
+            <label><input class="settingsElement" type="radio" name="headerModifications" id='headersUpcase' value="upcase" /> UPPERCASE</label></p>
+            </div>
+          
+          <p><label><input class="settingsElement" type="checkbox" name="some_name" value="" id="includeWhiteSpaceCB" checked /> Include white spaces</label></p>
+          <div class="settingsGroup">
+            <p>Indent with: </p>
+            <div class="settingsGroup">
+              <p>
+              <label><input class="settingsElement" type="radio" name="indentType" value="spaces" id='includeWhiteSpaceSpaces' checked/> Spaces</label><br>
+              <label><input class="settingsElement" type="radio" name="indentType" value="tabs" id='includeWhiteSpaceTabs'/> Tabs</label></p>
+              </div>
+          </div>
+
+            
+            
+
+        </form>
+        
+      
+      </div>
+    </div>
+  
+  
+  
+    <div id='converter' class=''>
+      
+    </div>
+  
+  </div>
+  
+
+  
+</body>
+</html>
