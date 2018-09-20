@@ -24,6 +24,6 @@ Pode parecer meio inconveniente publicar dessa forma, mas há algumas vantagens:
 * O site é muito mais rápido, pois o servidor não precisa ficar se comunicando com um banco de dados sempre que carrega uma página.
 * Por não ter banco de dados, é muito mais seguro, impedindo que um hacker faça SQL injection, por exemplo.
 
-Ou seja, manter um servidor com PHP + MySQL e uma instalação Wordpress e seus plugins que precisam de constante atualização só pra servir um site que eu atualizo com pouca frequência me parece *overkill*. Eu cheguei a cogitar o Medium, mas pô, esse é o meu domínio pessoal – eu deveria ter controle sobre tudo! 
+Ou seja, manter um servidor com PHP + MySQL e uma instalação Wordpress e seus plugins que precisam de constante atualização só pra servir um site que eu atualizo com pouca frequência me parece *overkill*. Eu cheguei a cogitar o Medium, mas você leitor merece mais do que pop-ups pedindo pra assinar o serviço, e eu mereço mais do que uma plataforma que usa o **meu** conteúdo pra se promover.
 
 P.S.: Aproveitei essa migração para experimentar o interessantíssimo [Bulma](https://bulma.io/), como framework de css.

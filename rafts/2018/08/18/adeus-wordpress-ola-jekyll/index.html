@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+  <link rel="icon" type="image/png" href="http://localhost:4000/assets/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="http://localhost:4000/assets/favicon-16x16.png" sizes="16x16" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+  crossorigin="anonymous">
+  <title>
+    
+      Adeus Wordpress. Olá Jekyll! | João Faraco
+     
+  </title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4642622-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-4642622-1');
+  </script>
+
+</head>
+<body class="post">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        Home
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item" id="emoji">
+          <script>
+            var emojis = [ "😎", "😊", "😄", "🙈", "🤗", "🖖" ];
+            var randomEmoji = emojis[Math.floor(Math.random()*emojis.length)];
+            document.getElementById('emoji').innerHTML = randomEmoji;
+          </script>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+  <section class="hero has-background-white">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Adeus Wordpress. Olá Jekyll!
+        </h1>
+        
+        <h2 class="subtitle">
+          Obrigado por me servir por tantos anos, Wordpress. Mas é hora de explorar outra forma de publicar.
+        </h2>
+        
+        <p class="is-7  has-text-grey-light text-mono">18/08/2018</p>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        <p>Desde 2008, meu site roda em uma instalação própria de Wordpress. Não me leve a mal – eu ainda acho o Wordpress a plataforma de gerenciamento de conteúdo mais poderosa que existe. Mas como isso aqui é o meu <em>sandbox</em> pessoal, resolvi dar uma sacudida e passar tudo pra conteúdo estático.</p>
+
+<p>Mas por que resolvi fazer isso? Vamos comparar os dois:</p>
+
+<ul>
+  <li>O <a href="http://wordpress.org">Wordpress</a> é um sistema bastante complexo, construído em PHP. Todo o conteúdo do site fica em um <strong>banco de dados</strong> MySQL e as páginas do site são geradas <strong>dinamicamente</strong> à partir desse conteúdo.</li>
+  <li>O <a href="https://jekyllrb.com/">Jekyll</a> é um construtor de <strong>páginas estáticas</strong>. Ele não possui banco de dados, e todos os arquivos são simplesmente HTML estático.</li>
+</ul>
+
+<p>Então, com o Jekyll, em vez de eu escrever um post no painel de administração e publicar o conteúdo pro banco de dados, eu escrevo os posts em formato <a href="https://daringfireball.net/projects/markdown/" title="Markdown">Markdown</a>, e o Jekyll compila os arquivos .html das páginas estáticas.</p>
+
+<p><img src="/assets/images/joaofaraco-jekyll.png" alt="" /></p>
+
+<p>Pode parecer meio inconveniente publicar dessa forma, mas há algumas vantagens:</p>
+
+<ul>
+  <li>Não preciso mais pagar pela hospedagem – os arquivos ficam num repositório do Github, que é gratuito.</li>
+  <li>A estrutura é mais simples de se manter – nenhum banco de dados e menos arquivos para gerenciar.</li>
+  <li>Toda a manutenção é feita via controle de versão, então o backup acontece automaticamente.</li>
+  <li>O site é muito mais rápido, pois o servidor não precisa ficar se comunicando com um banco de dados sempre que carrega uma página.</li>
+  <li>Por não ter banco de dados, é muito mais seguro, impedindo que um hacker faça SQL injection, por exemplo.</li>
+</ul>
+
+<p>Ou seja, manter um servidor com PHP + MySQL e uma instalação Wordpress e seus plugins que precisam de constante atualização só pra servir um site que eu atualizo com pouca frequência me parece <em>overkill</em>. Eu cheguei a cogitar o Medium, mas pô, esse é o meu domínio pessoal – eu deveria ter controle sobre tudo!</p>
+
+<p>P.S.: Aproveitei essa migração para experimentar o interessantíssimo <a href="https://bulma.io/">Bulma</a>, como framework de css.</p>
+
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      
+        <a class="is-pulled-left" href="/2017/12/09/uma-conversa-pra-entender-bitcoin-em-7-minutos/">← Uma conversa pra entender Bitcoin em 7 minutos</a>
+       
+    </div>
+  </section>
+  <footer class="footer">
+  <div class="content has-text-centered">
+    
+  <a href="https://www.twitter.com/jpfaraco" target="_blank">
+    <span class="icon is-medium">
+      <i class="fab fa-lg fa-twitter"></i>
+    </span>
+  </a>
+
+  <a href="https://www.youtube.com/user/jpfaraco/" target="_blank">
+    <span class="icon is-medium">
+      <i class="fab fa-lg fa-youtube"></i>
+    </span>
+  </a>
+
+  <a href="https://www.linkedin.com/in/joaofaraco" target="_blank">
+    <span class="icon is-medium">
+      <i class="fab fa-lg fa-linkedin"></i>
+    </span>
+  </a>
+
+  <a href="https://www.github.com/jpfaraco" target="_blank">
+    <span class="icon is-medium">
+      <i class="fab fa-lg fa-github-alt"></i>
+    </span>
+  </a>
+
+  </div>
+</footer>
+</body>
+
+</html>

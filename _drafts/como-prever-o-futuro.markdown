@@ -22,9 +22,16 @@ Esses dois grupos costumam somar cerca de 16% do público, e são cruciais para 
 
 ![Ciclo de vida da difusão de inovações](/assets/images/DiffusionOfInnovation.png)
 
-Atravessando o abismo, tem os *early majority* e os *late majority*, que juntos compõem quase 70% do público. A primeira metade dessa maioria são pessoas pragmáticas, cujas expectativas são muito mais altas do que as dos *early adopters*. Daí a dificuldade de penetrar esse público. Uma vez conquistados, os *late majority* seguem na adoção, pois eles são mais conservadores ainda, e só mudam seus hábitos quando percebem que a maioria das pessoas também está fazendo.
+Atravessando o abismo, tem os *early majority* e os *late majority*, que juntos compõem **quase 70% do público**. 
+
+* **Early majority** são pessoas pragmáticas, cujas expectativas são muito mais altas do que as dos *early adopters*. Daí a dificuldade de penetrar esse público. 
+* Os **late majority** seguem na adoção, pois eles são mais conservadores ainda, e só mudam seus hábitos quando percebem que a maioria das pessoas também está fazendo.
 
 Por último, os atrasados *laggards* são aqueles que compram a tecnologia simplesmente por falta de opção a essa altura 😬
+
+#### Exemplo: A câmera digital
+
+A câmera digital começou sua história em 1975, quando o engenheiro da Kodak, Steve Sasson, construiu um verdadeiro monstro de Frankenstein que registrava imagens digitais em uma fita cassette. Pesava 3,5kg e demorava mais de 20 segundos para registrar uma foto. Os primeiros usos da câmera eram militares e científicos
 
 Ciclo de adoção de produtos – Câmera digital
 

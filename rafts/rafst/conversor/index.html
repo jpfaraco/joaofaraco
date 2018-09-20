@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html xmlns:fb="http://ogp.me/ns/fb#" lang="pt">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Conversor Excel(CSV) – XML Illustrator</title>
+  <meta name="author" content="Shan Carter, João Faraco">
+
+  <link rel="stylesheet" href="css/converter.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+  <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/CSVParser.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/DataGridRenderer.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/converter.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/Controller.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+<body>
+  <div id="fb-root"></div>
+  <script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=109631899054965";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <div id='base'>
+    <div id='header'>
+      <div id="description">
+        <img src="images/CSV-AiXML.png">
+        <h1>Conversor CSV-AiXML</h1>
+        <p>Utilize essa ferramenta para converter seus dados em formato Excel para XML compatível com Adobe Illustrator.</p>
+        <p>Copie seus dados separados por vírgula (CSV), ou copie as células direto do Excel e cole no campo ao lado.</p>
+        <p>Esse conversor foi criado a partir do
+          <a href="http://www.shancarter.com/data_converter/index.html" target="_blank"
+            class="roll">
+            <span data-title="Mr. Data Converter">Mr. Data Converter</span>
+          </a>, de
+          <a href="http://shancarter.com/" target="_blank" class="roll">
+            <span data-title="Shan Carter">Shan Carter</span>
+          </a>.
+          <br> A funcionalidade de converter para AiXML foi escrita por
+          <a href="https://joaofaraco.com.br" class="roll">
+            <span data-title="João Faraco">João Faraco</span>
+          </a>. </p>
+        <p>Assista ao tutorial de Variables
+          <a href="https://www.youtube.com/watch?v=kesFkwLjsto" class="roll">
+            <span data-title="aqui">aqui</span>
+          </a>.</p>
+        <p>
+          <fb:like href="https://joaofaraco.com.br/conversor/" send="true" layout="button_count" width="285" show_faces="true"
+            font="lucida grande"></fb:like>
+          <br />
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="jpfaraco" data-lang="pt">Tweetar</a>
+          <script>
+            ! function (d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+              }
+            }(document, "script", "twitter-wjs");
+          </script>
+        </p>
+      </div>
+      <div id='settings'>
+        <h3>Op&ccedil;ões</h3>
+        <form id='settingsForm'>
+          <p>Converter cabe&ccedil;alho: </p>
+          <div class="settingsGroup">
+            <p>
+              <label>
+                <input class="settingsElement" type="radio" name="headerModifications" id='headersNoTransform' value="none"
+                  checked /> Nenhum</label>
+              <br>
+              <label>
+                <input class="settingsElement" type="radio" name="headerModifications" value="downcase" id='headersDowncase'
+                /> caixa baixa</label>
+              <br>
+              <label>
+                <input class="settingsElement" type="radio" name="headerModifications" id='headersUpcase' value="upcase" /> CAIXA ALTA</label>
+            </p>
+          </div>
+
+          <p>
+            <label>
+              <input class="settingsElement" type="checkbox" name="some_name" value="" id="includeWhiteSpaceCB" checked /> Incluir quebras no resultado</label>
+          </p>
+          <div class="settingsGroup">
+            <p>Indentar com: </p>
+            <div class="settingsGroup">
+              <p>
+                <label>
+                  <input class="settingsElement" type="radio" name="indentType" value="spaces" id='includeWhiteSpaceSpaces'
+                    checked/> Espa&ccedil;os</label>
+                <br>
+                <label>
+                  <input class="settingsElement" type="radio" name="indentType" value="tabs" id='includeWhiteSpaceTabs' /> Tabula&ccedil;ão</label>
+              </p>
+            </div>
+          </div>
+
+
+
+
+        </form>
+
+
+      </div>
+    </div>
+
+
+
+    <div id='converter' class=''>
+
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
