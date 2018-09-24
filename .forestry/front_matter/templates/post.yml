@@ -21,3 +21,5 @@ fields:
     required: true
   label: Layout
   default: post
+pages:
+- _posts/Teste.md
