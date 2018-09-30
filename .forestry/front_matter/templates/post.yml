@@ -21,3 +21,5 @@ fields:
     required: true
   label: Layout
   default: post
+pages:
+- _posts/validação-não-deveria-ser-tão-difícil.md
