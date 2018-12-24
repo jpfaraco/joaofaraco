@@ -11,7 +11,7 @@ _Aceito recomendações para o que ler em 2019_ 😊 [_Twitta pra mim!_](https:/
 
 #### Surely You're Joking, Mr. Feynman!
 
-Aaa
+Essa autobiografia do físico Richard Feynman é contada do jeito dele - um formado não convencional, composto por uma coleção de pequenas histórias do seu dia-a-dia. As histórias são paralelas às conquistas de Feynman, e pintam o quadro de porquê ele foi tão importante e influente na física. Casos como a obsessão dele por arrombar cofres, aprender a tocar bongôs, vir para o Brasil e entrar numa escola de samba carioca para tocar frigideira, são apenas alguns que tornam o personagem dele intrigante e inspirador. A narrativa não foca nos marcos científicos e profissionais de Feynman, como o projeto Manhattan e o fato de ter ganhado um prêmio Nobel, mas sim na sua filosofia contrariada e sua visão de mundo, que foi justamente o que pavimentou sua jornada que o mundo conhece. Saber que ele era envolvido em confusões, que se jogava em situações por pura curiosidade, e que tudo que fazia era pela busca de mais conhecimento variado inspira um positivismo em relação à vida que nenhum outro comunicador de ciência consegue inspirar. 
 
 #### Masters of Doom
 
