@@ -2,7 +2,7 @@
 title: Os melhores livros que li em 2018
 subtitle: ''
 layout: post
-date: 2018-12-23 12:52:16 -0200
+date: 2018-12-31 19:02:00 -0200
 
 ---
 O ano passou e é hora de retrospectar sobre o que eu andei lendo em 2018. Esses são os livros que mais marcaram meus últimos 12 meses.
