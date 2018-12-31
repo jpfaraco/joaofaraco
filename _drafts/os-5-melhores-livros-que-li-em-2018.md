@@ -5,7 +5,7 @@ layout: post
 date: 2018-12-23 12:52:16 -0200
 
 ---
-O ano passou e é hora de retrospectar sobre o que eu andei lendo em 2018. Essa é a lista dos 5 livros que mais marcaram meus últimos 12 meses.
+O ano passou e é hora de retrospectar sobre o que eu andei lendo em 2018. Esses são os livros que mais marcaram meus últimos 12 meses.
 
 _Aceito recomendações para o que ler em 2019_ 😊 [_Twitta pra mim!_](https://twitter.com/jpfaraco)
 
@@ -27,7 +27,9 @@ Interessante também é ver como a química entre dois personagens aparentemente
 
 #### Chaos: Making a New Science
 
-Aaa
+"Uma borboleta bate as asas no Brasil e provoca um tufão na Indonésia."
+
+Esse é um ditado que simboliza a teoria do caos, que diz que pequenas mudanças em condições iniciais podem produzir resultados catastróficos em sistemas complexos. Esse foi o primeiro livro do autor James Gleick, bestseller em 1988, e foi o que popularizou o efeito borboleta. A leitura não é leve, mas é uma excelente introdução a esse braço da ciência tão intrigante. Gleick explica as origens dos experimentos de caos e introduz os principais cientistas responsáveis por modelos de previsão do tempo, fractais
 
 #### A Curious Mind
 
