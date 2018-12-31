@@ -19,6 +19,8 @@ Casos como sua obsessão por arrombar cofres, aprender a tocar bongô, vir para 
 
 Saber que ele se envolvia em confusões, que se jogava em situações por pura curiosidade, e que tudo que fazia era pela busca de mais conhecimento variado inspira um positivismo em relação à vida que nenhum outro comunicador de ciência consegue inspirar.
 
+ 
+
 #### Masters of Doom
 
 ![](/uploads/masters-of-doom.jpg)
@@ -29,6 +31,8 @@ Talvez eu tenha gostado tanto desse livro justamente por esse valor nostálgico,
 
 Interessante também é ver como a química entre dois personagens aparentemente opostos – Romero, o game-designer-rockstar e Carmack, o gênio-robô-psicopata – catalisa resultados incríveis, no estilo Jobs/Wozniak, Lasseter/Catmull etc.
 
+ 
+
 #### Chaos: Making a New Science
 
 ![](/uploads/chaos.jpg)
@@ -38,6 +42,8 @@ Interessante também é ver como a química entre dois personagens aparentemente
 Esse é um ditado que simboliza a teoria do caos, que diz que pequenas mudanças em condições iniciais podem produzir resultados catastróficos em sistemas complexos. Esse foi o primeiro livro do autor James Gleick, bestseller em 1988, e foi o que popularizou o efeito borboleta.
 
 A leitura não é leve, mas é uma excelente introdução a esse braço da matemática tão intrigante. Gleick introduz os principais cientistas responsáveis por experimentos de caos de forma cronológica, e costura muito bem a relação entre modelos de previsão do tempo até a geometria fractal presente no espaço, na natureza e no corpo humano. Após ter lido, eu fiquei um pouco obcecado com o assunto, e passei meses pesquisando mais textos e vídeos sobre o que o livro me apresentou.
+
+ 
 
 #### A Curious Mind
 
