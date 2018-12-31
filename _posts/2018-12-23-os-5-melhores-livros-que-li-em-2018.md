@@ -9,6 +9,8 @@ O ano passou e é hora de retrospectar sobre o que eu andei lendo em 2018. Esses
 
 _Aceito recomendações para o que ler em 2019_ 😊 [_Twitta pra mim!_](https://twitter.com/jpfaraco)
 
+ 
+
 #### Surely You're Joking, Mr. Feynman!
 
 ![](/uploads/surely-youre-joking-mr-feynman.jpg)
