@@ -29,7 +29,7 @@ Interessante também é ver como a química entre dois personagens aparentemente
 
 "Uma borboleta bate as asas no Brasil e provoca um tufão na Indonésia."
 
-Esse é um ditado que simboliza a teoria do caos, que diz que pequenas mudanças em condições iniciais podem produzir resultados catastróficos em sistemas complexos. Esse foi o primeiro livro do autor James Gleick, bestseller em 1988, e foi o que popularizou o efeito borboleta. A leitura não é leve, mas é uma excelente introdução a esse braço da ciência tão intrigante. Gleick explica as origens dos experimentos de caos e introduz os principais cientistas responsáveis por modelos de previsão do tempo, fractais
+Esse é um ditado que simboliza a teoria do caos, que diz que pequenas mudanças em condições iniciais podem produzir resultados catastróficos em sistemas complexos. Esse foi o primeiro livro do autor James Gleick, bestseller em 1988, e foi o que popularizou o efeito borboleta. A leitura não é leve, mas é uma excelente introdução a esse braço da matemática tão intrigante. Gleick explica as origens dos experimentos de caos e introduz os principais cientistas responsáveis por modelos de previsão do tempo, fractais
 
 #### A Curious Mind
 
