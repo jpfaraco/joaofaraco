@@ -29,3 +29,5 @@ Se você estiver com uma ideia de app na cabeça, tente pensar o que ele faz ess
 1. Recebe um input de uma pessoa
 2. Processa essa informação
 3. Devolve a informação processada, de forma que entregue **valor**.
+
+Fazer isso funcionar não depende de um desenvolvedor. Existem muitas ferramentas que podem ser combinadas de forma criativa, pra que você consiga validar essa ideia sem precisar escrever uma única linha de código.
