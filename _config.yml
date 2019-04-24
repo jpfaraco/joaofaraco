@@ -5,6 +5,8 @@ permalink: pretty
 sass:
   style: compact
 
+include: [.well-known]
+
 social:
   - name: twitter
     url: https://www.twitter.com/jpfaraco
