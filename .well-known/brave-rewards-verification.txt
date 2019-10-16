@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: joaofaraco.com.br
+Token: 4b2c6b72327952339465176793c949e7167cf61de363515830ba8567f97884a1
