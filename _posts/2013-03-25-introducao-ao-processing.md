@@ -2,7 +2,8 @@
 title: Introdução ao Processing
 layout: post
 ---
-Processing é uma linguagem de programação destinada a designers e ilustradores. Foi criada no MIT, e é na verdade um subset da linguagem Java, mas com algumas facilidades destinadas a produção de peças gráficas, animações, interações etc. 
+
+Processing é uma linguagem de programação destinada a designers e ilustradores. Foi criada no MIT, e é na verdade um subset da linguagem Java, mas com algumas facilidades destinadas a produção de peças gráficas, animações, interações etc.
 
 A onda do Processing é que é uma linguagem muito fácil de aprender. Assim como outras linguagens como JavaScript e Python, mesmo se você nunca teve experiência prévia com programação, algumas linhas de código e um pouco de raciocínio podem produzir resultados incríveis. E essa sempre foi a sua premissa, desde quando John Maeda e seus estudantes do MIT Media Lab conceberam o projeto em 2001.
 
@@ -10,7 +11,7 @@ Vou falar um pouco do básico, pra você ver se você também se interessa na li
 
 ### Começando
 
-Pra início de conversa, você tem que baixar o aplicativo do Processing. Ele é gratuito e está disponível pra download em [http://processing.org](http://processing.org){:target="_blank"}. Tem versões pra Windows, Mac e Linux. Instale-o e abra.
+Pra início de conversa, você tem que baixar o aplicativo do Processing. Ele é gratuito e está disponível pra download em [http://processing.org](http://processing.org){:target="\_blank"}. Tem versões pra Windows, Mac e Linux. Instale-o e abra.
 
 ![]({{ site.baseurl }}/assets/images/2013/03/Screen-Shot-2013-03-24-at-6.23.43-PM.png)
 
@@ -110,7 +111,7 @@ Com isso, podemos fazer algum valor dentro de `draw()` variar a cada quadro. Iss
       background(#333333);
       noFill();
       stroke(#FFFFFF);
-    } 
+    }
     void draw() {
       ellipse(mouseX, mouseY, 100, 100);
     }
@@ -124,7 +125,7 @@ Interessante ... Que tal fazer isso só quando o botão do mouse está pressiona
       background(#333333);
       noFill();
       stroke(#FFFFFF);
-    } 
+    }
     void draw() {
       if (mousePressed){
         ellipse(mouseX, mouseY, 100, 100);
@@ -141,7 +142,7 @@ Podemos também fazer com que o tamanho e a cor do contorno das elipses desenhad
       size(510, 510);
       background(#333333);
       noFill();
-    } 
+    }
     void draw() {
       if (mousePressed) {
         stroke(mouseX/2);
@@ -166,7 +167,7 @@ Todas essas funções e variáveis como `stroke()`, `ellipse()`, `mousePressed`,
       background(#333333);
       noFill();
       stroke(#FFFFFF);
-    } 
+    }
     void draw() {
       ellipse(width/2, height/2, 30, 30);
     }
@@ -175,14 +176,14 @@ Eu quero que essa elipse ande 1 pixel pra direita a cada quadro. Pra isso, a pos
 
 Pense em uma variável como uma gaveta que armazena um dado qualquer. O que está dentro da gaveta pode ser consultado e alterado. No caso, queremos uma gaveta que guarde um valor numérico, que a cada quadro vai ser incrementado uma unidade, e consultado pelo campo da posição x da elipse.
 
-    float posX; 
+    float posX;
     void setup() {
       size(510, 510);
       background(#333333);
       noFill();
       stroke(#FFFFFF);
       posX = width/2;
-    } 
+    }
     void draw() {
       ellipse(posX, height/2, 30, 30);
       posX = posX + 1;
@@ -202,14 +203,14 @@ Por último, incrementamos o valor de `posX` em uma unidade.
 
 Beleza, mas eu não quero deixar esse rastro de círculos a cada quadro processado. Basta redefinir a cor do `background()`, dentro do `draw()`. Assim, a cada quadro, o programa pinta o fundo por cima de tudo e desenha o círculo na sua nova posição:
 
-    float posX;  
+    float posX;
     void setup() {
       size(510, 510);
       background(#333333);
       noFill();
       stroke(#FFFFFF);
       posX = width/2;
-    } 
+    }
     void draw() {
       background(#333333);
       ellipse(posX, height/2, 30, 30);
@@ -219,14 +220,14 @@ Beleza, mas eu não quero deixar esse rastro de círculos a cada quadro processa
 Agora, entendido como funcionam as variáveis, podemos incrementar um pouco mais esse programa. Vamos fazer com que a posição x do cursor defina a velocidade do círculo. Ao mesmo tempo, vamos fazer com que o círculo volte pro início da tela, se ele sair de vista:
 
     float posX;
-    float velX;  
+    float velX;
     void setup() {
       size(510, 510);
       background(#333333);
       noFill();
       stroke(#FFFFFF);
       posX = width/2;
-    } 
+    }
     void draw() {
       background(#333333);
       velX = mouseX/10;
@@ -243,12 +244,12 @@ Aqui, introduzimos mais uma variável, `velX`, e definimos que ela vai ser a pos
 
 Introduzimos uma condicional que vai cuidar do valor de `posX` assim: Se a elipse estiver em uma posição x maior do que a largura da tela, coloque-a de volta na esquerda da tela. Se não (`else{}`), incremente a posição x no valor que estiver na variável `velX` (definida pela posição x do cursor dividido por 10).
 
-<video autoplay loop>
+<video autoplay loop controls>
   <source src="{{ site.baseurl }}/assets/images/2013/03/Processing.mp4.mp4" type="video/mp4">
   <source src="{{ site.baseurl }}/assets/images/2013/03/Processing.oggtheora.ogv" type="video/ogg">
 </video>
 
-* * *
+---
 
 Isso é só pra riscar a superfície, e não gera muito resultado útil por si só. Mas entendendo a lógica de funcionamento de linguagens como o Processing, conseguimos ir descobrindo novas possibilidades através da experimentação que empurra o estudo. É importante se desafiar a cada etapa, e com isso ir aprendendo novas técnicas. Mesmo se o que você está escrevendo não tiver aplicação prática, entender e exercitar os conceitos de variáveis, funções, propriedades, métodos, classes, etc é crucial pra mergulhar em qualquer linguagem de programação, e o Processing é uma ótima porta de entrada pra quem se interessa em produzir suas próprias ferramentas visuais, e aproveitar o poder de processamento do computador.
 
