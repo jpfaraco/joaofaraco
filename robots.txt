@@ -1,0 +1,6 @@
+Sitemap: https://joaofaraco.com.br/sitemap.xml
+
+# Group 1
+User-agent: *
+Disallow: /hey/
+Disallow: /insert/

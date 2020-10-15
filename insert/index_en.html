@@ -1,0 +1,501 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Insert 2012</title>
+
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<link href="../hey/tobii.min.css" rel="stylesheet">
+<style type="text/css">
+/* Based on The MailChimp Reset INLINE: Yes. */  
+		/* Client-specific Styles */
+		#outlook a {
+	padding:0;
+} /* Force Outlook to provide a "view in browser" menu link. */
+:root {
+    --lightbox-background: rgba(0,0,0,0.9);
+}
+.tobii {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+	width:100% !important;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	margin:0;
+	padding:0;
+}
+/* Prevent Webkit and Windows Mobile platforms from changing default font sizes.*/ 
+		.ExternalClass {
+	width:100%;
+} /* Force Hotmail to display emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+	line-height: 100%;
+}
+/* Forces Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */ 
+		#backgroundTable {
+	margin:0;
+	padding:0;
+	width:100% !important;
+	line-height: 100% !important;
+}
+/* End reset */
+
+		/* Some sensible defaults for images
+		Bring inline: Yes. */
+		img {
+	outline:none;
+	text-decoration:none;
+	-ms-interpolation-mode: bicubic;
+}
+a img {
+	border:none;
+}
+.image_fix {
+	display:block;
+}
+/* Yahoo paragraph fix
+		Bring inline: Yes. */
+		p {
+	margin: 1em 0;
+}
+/* Hotmail header color reset
+		Bring inline: Yes. */
+		h1, h2, h3, h4, h5, h6 {
+  color: #444 !important;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: blue !important;
+}
+h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+	color: red !important; /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+}
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+	color: purple !important; /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+}
+/* Outlook 07, 10 Padding issue fix
+		Bring inline: No.*/
+		table td {
+	border-collapse: collapse;
+}
+/* Remove spacing around Outlook 07, 10 tables
+    Bring inline: Yes */
+    table {
+	border-collapse:collapse;
+	mso-table-lspace:0pt;
+	mso-table-rspace:0pt;
+}
+/* Styling your links has become much simpler with the new Yahoo.  In fact, it falls in line with the main credo of styling in email and make sure to bring your styles inline.  Your link colors will be uniform across clients when brought inline.
+		Bring inline: Yes. */
+		a {
+	color: #069;
+}
+
+
+		/***************************************************
+		****************************************************
+		MOBILE TARGETING
+		****************************************************
+		***************************************************/
+		@media only screen and (max-device-width: 480px) {
+			/* Part one of controlling phone number linking for mobile. */
+			a[href^="tel"], a[href^="sms"] {
+ text-decoration: none;
+ color: blue; /* or whatever your want */
+ pointer-events: none;
+ cursor: default;
+}
+ .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+ text-decoration: default;
+ color: orange !important;
+ pointer-events: auto;
+ cursor: default;
+}
+}
+
+		/* More Specific Targeting */
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		/* You guessed it, ipad (tablets, smaller screens, etc) */
+			/* repeating for the ipad */
+			a[href^="tel"], a[href^="sms"] {
+ text-decoration: none;
+ color: blue; /* or whatever your want */
+ pointer-events: none;
+ cursor: default;
+}
+ .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+ text-decoration: default;
+ color: orange !important;
+ pointer-events: auto;
+ cursor: default;
+}
+}
+ @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+/* Put your iPhone 4g styles in here */ 
+		}
+
+		/* Android targeting */
+		@media only screen and (-webkit-device-pixel-ratio:.75) {
+/* Put CSS for low density (ldpi) Android layouts in here */
+		}
+ @media only screen and (-webkit-device-pixel-ratio:1) {
+/* Put CSS for medium density (mdpi) Android layouts in here */
+		}
+ @media only screen and (-webkit-device-pixel-ratio:1.5) {
+/* Put CSS for high density (hdpi) Android layouts in here */
+		}
+		/* end Android targeting */
+</style>
+
+<!-- Targeting Windows Mobile -->
+<!--[if IEMobile 7]>
+	<style type="text/css">
+	
+	</style>
+	<![endif]-->
+
+<!-- ***********************************************
+	****************************************************
+	END MOBILE TARGETING
+	****************************************************
+	************************************************ -->
+
+<!--[if gte mso 9]>
+		<style>
+		/* Target Outlook 2007 and 2010 */
+		</style>
+	<![endif]-->
+</head>
+<body>
+<table cellpadding="30" cellspacing="0" border="0" bgcolor="#EFEFEF" align="center" width="100%">
+  <tr>
+    <td valign="top"><table cellspacing="0" border="0" bgcolor="#FFFFFF" align="center" width="800"
+        	style="
+                border: 1px solid #CCCCCC;
+                box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+                -moz-box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+                -webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+                padding: 0;
+                width: 800px;
+                ">
+        <tr>
+          <td bgcolor="#000000" style="padding:0"><img src="imgs/header_01.jpg" alt="Insert 2012" title="" height="200" width="800" /></td>
+        </tr>
+        <tr>
+          <td valign="top" width="800" style="
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #444;
+                    font-weight: 300;
+                    padding: 30px;
+                "><p>In September 2012,  Rio de Janeiro hosted <strong>Insert 2012</strong>. This was the first edition of a project that started two years ago by seven designers who wanted something new for design, art and culture in Rio. An idea that came out of informal chats, emails, Skypes, and evolved into a project that touched the lives of everyone involved, and mobilized the national design scene.</p>
+            <p>&quot;What matters is to make it happen&quot; had always been our motto, and that &quot;an idea on paper is worthless.&quot; So after many meetings, congresses, conferences and seeing the opportunity for something like this, the project <em>had</em> to leave the paper - a large  design conferencein Brazil. In Rio!<br />
+            An event to call our own, for Brazil.</p>
+<h2 style="font-size:20px; line-height:28px">The goal of Insert is to give the participant a glance over the multidiciplinarities of design applied to the real world, and after having experienced it, inspire their own work and attitudes in their daily activities.</h2>
+            <p>For this, the event featured eight national and international talks, two round tables, six mini-cases from students and small agencies, three special case studies, 5 workshops and a visitors area with a design fair, exhibitions and activities, and to top it off, a super party at the end of the first day.</p>
+            <p>All this washed by the warmth of the culture and the environment in Rio, at the Centro Cultural Ação da Cidadania, an amazing warehouse at the heart of the city's port zone.</p>
+            &nbsp;<br />
+            <hr noshade="noshade" size="1" color="#CCCCCC" style="margin: 0 -30px;" />
+            &nbsp;<br />
+            <h3 style="font-size:20px; line-height:28px">Talks</h3>
+            <p>The main attractions were the one-hour talks, especially the international ones, whose speakers came from countries like USA (<strong>Joshua Davis</strong> and <strong>Aaron Duffy</strong>), Argentina (<strong>Pablo Alfieri</strong>), United Kingdom (<strong>Thomas Manss</strong>) and Germany (<strong>Eike König</strong>).</p>
+            <p>Brazilian speakers also showed their inspiring work, and how the various aspects of national design are strengthening and solidifying the design culture in Brazil. Among them, <strong>Claudio Peralta</strong>, effects supervisor at Conspiração Filmes, <strong>André Stolarski</strong>, creative director at Tecnopop, and <strong>Ricardo Bezerra</strong> and <strong>Maíra Rahme</strong>, from Tátil Design.</p></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_raul_aragao-15.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_raul_aragao-15.jpg" alt="Eike König" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_raul_aragao-58.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_raul_aragao-58.jpg" alt="André Stolarski" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_raul_aragao-119.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_raul_aragao-119.jpg" alt="Joshua Davis" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_fernando_reule-143.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_fernando_reule-143.jpg" alt="Plateia" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_raul_aragao-102.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_raul_aragao-102.jpg" alt="Pablo Alfieri" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_raul_aragao-90.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_raul_aragao-90.jpg" alt="Tátil Design" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_luke_garcia-155.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_luke_garcia-155.jpg" alt="Thomas Manss" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_raul_aragao-1.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_raul_aragao-1.jpg" alt="Claudio Peralta" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_raul_aragao-62.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_raul_aragao-62.jpg" alt="Aaron Duffy" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td valign="top" width="800" style="
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #444;
+                    font-weight: 300;
+                    padding: 30px;
+                "><h3 style="font-size:20px; line-height:28px">Round tables</h3>
+            <p>Also on the main stage and for the first time, two meetings discussed two opposing but related subjects.</p>
+            <p>The round table &quot;<strong>Design Today</strong>&quot; was a discussion about the ways of the national design today, the realities of the current market in professional and academic aspects, presented by <strong>Fernando Reule</strong>, <strong>Rafo Castro</strong>, <strong>Renato Facchini</strong> and <strong>Bruno Porto</strong>, under the mediation of <strong>Prof. Luciano Tardin</strong>.</p>
+            <p>The round table &quot;<strong>Design Forever</strong>&quot; was a journey through the history of design in Brazil, recalling the values ​​that were built to get where we are today, and learning from the legacy that was left. The table was enlightened by <strong>Nair de Paula Soares</strong>, <strong>Rafael Rodrigues</strong>, <strong>Roberto Verschleisser</strong> and <strong>Irene  Peixoto</strong>, under the mediation of <strong>Dr. Livia Rezende</strong>.</p></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_luke_garcia-39.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_luke_garcia-39.jpg" alt="Mesa Design Hoje" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_joao_faraco-192.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_joao_faraco-192.jpg" alt="Mesa Design Sempre" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td valign="top" width="800" style="
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #444;
+                    font-weight: 300;
+                    padding: 30px;
+                "><h3 style="font-size:20px; line-height:28px">Case studies</h3>
+            <p>Three special case studies were also under the spotlight on the main stage: <strong>Fabio Lopez</strong>, presenting his social criticism projects that use design as a communication tool; <strong>Henrique Nardi </strong>and <strong>Mariana Ochs</strong>, showed how a proper use of typography can strengthen the message of a publication; <strong>Priscilla Midori </strong>and <strong>Victor Marcello</strong>, presenting the Nosotros Project, a trip through Latin America in search of the relationship of each culture with the local creative works.</p></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_luke_garcia-21.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_luke_garcia-21.jpg" alt="Fabio Lopez" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_luke_garcia-68.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_luke_garcia-68.jpg" alt="Henrique Nardi e Mariana Ochs" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_joao_faraco-154.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_joao_faraco-154.jpg" alt="Projeto Nosotros" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td valign="top" width="800" style="
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #444;
+                    font-weight: 300;
+                    padding: 30px;
+                "><h3 style="font-size:20px; line-height:28px">Mini-cases</h3>
+            <p>In addition to the lectures and round tables, the main stage also received 6 mini-cases of newly graduated students and small agencies, who showed their work and presented their cases. The mini-cases were selected from proposals submitted by dozens of students and young professionals, and those who took the stage were <strong>Pedro Segreto</strong> and <strong>Marcelo Alt</strong>, from Chaos! studio; <strong>Elenay Oliveira</strong>, from Leaf magazine; <strong>Renato Carvalho</strong>, from Startaê, <strong>Carlos de Oliveira Junior </strong>and <strong>Marlus Araujo</strong>, presenting their crowd-funded Bicicletorama project; <strong>Rodrigo Minguez </strong>and <strong>Pedro Perdigão</strong>, from EPA!; And <strong>Bee Grandinetti</strong>, presenting her graduation project &quot;Sem Tarja Preta&quot;.</p></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><table width="800" cellpadding="0" cellspacing="0" border="0" style="padding:0">
+              <tr>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_luke_garcia-9.jpg" style="border: none;"> <img src="imgs/thumbs/insert_luke_garcia-9.jpg" alt="Mini-case: EPA!" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_joao_faraco-139.jpg" style="border: none;"> <img src="imgs/thumbs/insert_joao_faraco-139.jpg" alt="Mini-case: Bicicletorama" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_luke_garcia-2.jpg" style="border: none;"> <img src="imgs/thumbs/insert_luke_garcia-2.jpg" alt="Mini-case: Caos!" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_joao_faraco-153.jpg" style="border: none;"> <img src="imgs/thumbs/insert_joao_faraco-153.jpg" alt="Mini-case: Sem Tarja Preta" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td valign="top" width="800" style="
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #444;
+                    font-weight: 300;
+                    padding: 30px;
+                "><h3 style="font-size:20px; line-height:28px">Workshops</h3>
+            <p>For those who wanted to get their hands dirty and learn the practical way, Insert hosted 5 workshops. The workshops were sessions short enough for the participant not miss the rest of the event, but complete enough for a good profit and inspiring exploration of a particular subject.</p>
+            <p>The classes were at most 20 people, allowing close contact between the participant and the teacher, and covered a wide variation of subjects. The workshops were: <strong>Focus Thanks to Reduction</strong>, administered by Eike König; <strong>Projection Mapping </strong>with Augusto Amaral; <strong>Creating Innovative Business Plans</strong> with Ronaldo Porto and Cassiano Farani; <strong>Sketchbook Binding</strong>, with the master Renato Alarcão, and <strong>Lomography: Introduction and Practice</strong>, with Philippe Machado, of Lomography.</p>
+            <p>Besides the closed workshops, <strong>Senai </strong>offered free creative workshops throughout the day at their booth.</p></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><table width="800" cellpadding="0" cellspacing="0" border="0" style="padding:0">
+              <tr>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_joao_faraco-295.jpg" style="border: none;"> <img src="imgs/thumbs/insert_joao_faraco-295.jpg" alt="Workshop: Criação de Negócios Inovadores" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_joao_faraco-306.jpg" style="border: none;"> <img src="imgs/thumbs/insert_joao_faraco-306.jpg" alt="Workshop: Projection Mapping" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_joao_faraco-286.jpg" style="border: none;"> <img src="imgs/thumbs/insert_joao_faraco-286.jpg" alt="Workshop Senai" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_raul_aragao-31.jpg" style="border: none;"> <img src="imgs/thumbs/insert_raul_aragao-31.jpg" alt="Workshop Senai" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td valign="top" width="800" style="
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #444;
+                    font-weight: 300;
+                    padding: 30px;
+                "><h3 style="font-size:20px; line-height:28px">Design fair</h3>
+            <p>The first half of the warehouse had attractions even for those who didn't want to attend the talks.</p>
+            <p>Upstairs, <strong>Project &quot;Feirinha&quot;</strong> was a special space for designers who are launching their brands could sell their products for the right people. Of the dozens of projects received, 12 were selected, and set up their booths on the second floor, selling products ranging from bicycles, wooden sunglasses, and temporary tattoos.</p>
+            <p>Besides the Feirinha, the area has also served as a space for partners to assemble their product sales and brand activations. Among them, <strong>Wacom</strong>, <strong>Senai</strong>, <strong>Compactor</strong>, <strong>Infnet</strong>, <strong>RioBooks</strong> and <strong>Meninos</strong>.</p></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_joao_faraco-103.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_joao_faraco-103.jpg" alt="Projeto Feirinha: Oficina Itsu" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_wacom-1.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_wacom-1.jpg" alt="Stand: Wacom" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_raul_aragao-43.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_raul_aragao-43.jpg" alt="Projeto Feirinha: Le Petit Pirate" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_joao_faraco-99.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_joao_faraco-99.jpg" alt="Área de stands" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_joao_faraco-104.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_joao_faraco-104.jpg" alt="Projeto Feirinha: Zerezes" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td valign="top" width="800" style="
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #444;
+                    font-weight: 300;
+                    padding: 30px;
+                "><h3 style="font-size:20px; line-height:28px">Exhibitions</h3>
+            <p>Downstairs was where the exhibitions happened –  the <strong>Printgram photo wall</strong>, which brought together more than 1,400 photos taken by the participants; <strong>Project Nosotros</strong> expo; <strong>Camiseteria</strong>, which exposed the winning t-shirt designs selected from the online contest; <strong>Expo 60 Degrees</strong>, in partnership with La Estampa, was an unconventional but very carioca graffiti installation, where artists would customize beach umbrellas on the spot.</p></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><table width="800" cellpadding="0" cellspacing="0" border="0" style="padding:0">
+              <tr>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_raul_aragao-92.jpg" style="border: none;"> <img src="imgs/thumbs/insert_raul_aragao-92.jpg" alt="Exposição: Printgram" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_diego_padilha-1.jpg" style="border: none;"> <img src="imgs/thumbs/insert_diego_padilha-1.jpg" alt="Exposição: Projeto Nosotros" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_raul_aragao-10.jpg" style="border: none;"> <img src="imgs/thumbs/insert_raul_aragao-10.jpg" alt="Expo 60 Graus" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/insert_fernando_reule-33.jpg" style="border: none;"> <img src="imgs/thumbs/insert_fernando_reule-33.jpg" alt="Bicicleta elétrica LEV" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td valign="top" width="800" style="
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #444;
+                    font-weight: 300;
+                    padding: 30px;
+                "><h3 style="font-size:20px; line-height:28px">Activities and Party</h3>
+            <p>And for no one to stand around in such a big space, during the day, <strong>LEV</strong> electric bikes and a <strong>Red Bull skate park</strong>, and on Saturday night, <strong>PUSH! party</strong>.</p>
+            <p>PUSH! is a party from Belo Horizonte, which is now in its 14th edition in Minas Gerais, but this was the first edition away from home, bringing over 900 people to the dance floor at Insert. Featuring the very latest in the electronic scene and adjacent styles, as well as the whole aura of urban culture, PUSH! brought renowned DJs such as <strong>Sexistalk</strong>, <strong>Vitor Sobrinho</strong>, the two-time champion <strong>Nedu Lopes</strong>, <strong>Xeréu</strong> and <strong>Nepal</strong>. That's not counting the MCs from <strong>SHUP!</strong> and the <strong>Pimpão bear</strong>, who pumped the audience  and distributed their bright accessories, ensuring a sweaty night until 05:00 AM.</p></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><a class="lightbox" href="imgs/fotos/push-6470.jpg" style="border: none;"> <img src="imgs/fotos_800/push-6470.jpg" alt="Festa PUSH!" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+        </tr>
+        <tr>
+          <td width="800" style="padding:0"><table width="800" cellpadding="0" cellspacing="0" border="0" style="padding:0">
+              <tr>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/push-6692.jpg" style="border: none;"> <img src="imgs/thumbs/push-6692.jpg" alt="Festa PUSH!" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/push-6723.jpg" style="border: none;"> <img src="imgs/thumbs/push-6723.jpg" alt="Festa PUSH!" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/push-6764.jpg" style="border: none;"> <img src="imgs/thumbs/push-6764.jpg" alt="Festa PUSH!" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+                <td width="25%" height="133" style="padding:0"><a class="lightbox" href="imgs/fotos/push-6312.jpg" style="border: none;"> <img src="imgs/thumbs/push-6312.jpg" alt="Festa PUSH!" width="100%" height="100%" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+        <tr>
+          <td valign="top" width="800" style="
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #444;
+                    font-weight: 300;
+                    padding: 30px;
+                ">&nbsp;<br />
+            <hr noshade="noshade" size="1" color="#CCCCCC" style="margin: 0 -30px;" />
+            &nbsp;<br />
+            <h3 style="font-size:20px; line-height:28px">Public</h3>
+            <p>Insert's public was a reflection of the content we brought – <strong>an event for students who seek extra-curricular activities and knowledge, and professionals who are after inspiration and a sensorial experience to enrich their daily work.</strong> <br />
+              The event attracted the attention of students, designers, artists, illustrators, advertisers and enthusiasts. </p>
+            <p>A post-event poll showed us the data:</p>
+            <table cellspacing="0" border="0" width="100%" style="padding:0">
+              <tr>
+                <td valign="top" width="50%" style="padding:0"><h4 style="font-size:17px; line-height:24px">Age groups</h4>
+                  <img src="imgs/pesquisa_en_01.gif" alt="Faixa etária" title="" height="180" width="370" /></td>
+                <td valign="top" width="50%" style="padding:0"><h4 style="font-size:17px; line-height:24px">Professional situation</h4>
+                  <img src="imgs/pesquisa_en_02.gif" alt="Situação profissional" title="" height="210" width="370" /></td>
+              </tr>
+              <tr>
+                <td valign="top" width="50%" style="padding:0"><h4 style="font-size:17px; line-height:24px">Professional field</h4>
+                  <img src="imgs/pesquisa_en_03.gif" alt="Área de atuação" title="" height="240" width="370" /></td>
+                <td valign="top" width="50%" style="padding:0"><h4 style="font-size:17px; line-height:24px">Participation in 2013</h4>
+                  <img src="imgs/pesquisa_en_04.gif" alt="Se pretende participar em 2013" title="" height="180" width="370" /></td>
+              </tr>
+            </table>
+            <h3 style="font-size:20px; line-height:28px">Testimonials</h3>
+            <p style="font-style:italic; color:#666; padding-left: 30px; border-left: 3px solid #CCC">Insert 2012 was undoubtedly a landmark of quality for design events in Brazil, and in all aspects: organization, infrastructure, logistics, communication and especially the content (differentiated, relevant and always up-to-date). I was honored to stand on a stage where I saw large projects and renowned professionals generously sharing their best stories, lessons, laughter, advice and reflections. I believe that people  left the event bubbling, crazy, frying so many ideas and insights. It was also great for people to meet, network, consume and catch up - all outside of a social network, heheh ... It was nearly 24 hours of event (counting the party, of course!) and at the end I was still wanting more. Congratulations guys: You made us proud! I'm anxious for 2013, live long and prosper, Insert!<br />
+              <span style="font-style:normal; color:#444; text-align:right; font-weight: bold">Fabio Lopez, case "O Design Contra o Crime"</span></p>
+            <p style="font-style:italic; color:#666; padding-left: 30px; border-left: 3px solid #CCC">We really enjoyed the event! It was a nice selection of speakers and mini-cases. We enjoyed it very much!<br />
+              I just caught my breath back, and am truly self-motivated... Day by day we just get swallowed and forget the delights that our profession can provide. Many thanks to all of you for the initiative. Bring on Insert 2013!<br />
+              <span style="font-style:normal; color:#444; text-align:right; font-weight: bold">Liliane Duarte, participant</span></p>
+            <p style="font-style:italic; color:#666; padding-left: 30px; border-left: 3px solid #CCC">Insert Brasil should be part of Rio's design calendar – and, why not, Brazil's. The care of the entire production of the event was fantastic, the selection and monitoring of speakers and guests, attractions, shops and brands exposed, musical selection, safety and a positive vibe, which is the face of Rio<br />
+              <span style="font-style:normal; color:#444; text-align:right; font-weight: bold">Bruno Porto,  "Design Today" round-table participant</span></p>
+            <p style="font-style:italic; color:#666; padding-left: 30px; border-left: 3px solid #CCC">Many many thanks for your hospitality and kindness for the event. (...) Now I am in LA and missing Rio. But I hope to be back some day. Congratulations on a job well done.<br />
+              <span style="font-style:normal; color:#444; text-align:right; font-weight: bold">Aaron Duffy, keynote speaker</span></p>
+            <p style="font-style:italic; color:#666; padding-left: 30px; border-left: 3px solid #CCC">Congratulations to the dreamers, entrepreneurs, creators of the event. SENSATIONAL! The space, organization, speakers, structure ... A great lesson of how a venture should succeed: no frills, but with investment (risk!) on what is needed. Until next year!<br />
+              <span style="font-style:normal; color:#444; text-align:right; font-weight: bold">Renata Zilse, participant</span></p>
+            <p style="font-style:italic; color:#666; padding-left: 30px; border-left: 3px solid #CCC">Over many years of design , I've seen several attempts to make an independent event (companies, institutions and colleges) that serve both for students and for professionals in Rio de Janeiro. In these lines, only Insert succeeded. The first edition already came as an established event and with a lot of personality. The choice of location was perfect and the quality of the lectures, very high. The most important result that I expect from a design event is to make the participant feel inspired, motivated and with more useful information to its formation, and that certainly was what I saw happening.<br />
+              <span style="font-style:normal; color:#444; text-align:right; font-weight: bold">Renato Facchini,  &quot;Design Today&quot; round-table participant</span></p>
+            <p style="font-style:italic; color:#666; padding-left: 30px; border-left: 3px solid #CCC">It was an amazing opportunity that you guys gave me at such a badass event. (...) And I'm sure that it will only grow with the promise of being more amazing every year, you guys are awesome! :) I'm so happy to see competent people  bringing something new to Brazil and was so very proud to have been part of the first edition. You guys danced on the face of the community who thought that brazilians couldn't organize an event in this format. I hope to eventually be able to reciprocate what you gave me, haha, but for now I reach out for what you need, deal? AWE-SUM.<br />
+              <span style="font-style:normal; color:#444; text-align:right; font-weight: bold">Bee Grandinetti, mini-case "Sem Tarja Preta"</span></p>
+            <p style="font-style:italic; color:#666; padding-left: 30px; border-left: 3px solid #CCC">Again, congratulations on the event. Utter and complete success!<br />
+              Incredible space, heavy-weight speakers, flawless production and great vibes. Proud to have participated in the first chapter of this story! Hope you enjoyed. Long live Insert!<br />
+              <span style="font-style:normal; color:#444; text-align:right; font-weight: bold">Ricardo Bezerra, speaker</span></p></td>
+        </tr>
+        <tr>
+          <td width="800" style="
+            		padding:0; 
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #444;
+                    font-weight: 300;
+                    padding: 30px;
+                    border-top: 1px solid #CCCCCC;
+                    border-bottom: 1px solid #CCCCCC;
+                    " bgcolor="#EFEFEF"><p style="text-align:center; text-shadow: 0 1px 0 #FFFFFF"><span style="font-size:30px; line-height:34px; font-weight:bold">1,960</span><br />
+              newsletter subscribers</p>
+            <p style="text-align:center; text-shadow: 0 1px 0 #FFFFFF"><span style="font-size:30px; line-height:34px; font-weight:bold">8,611</span><br />
+              website unique visitors, during the pre-event week</p>
+            <p style="text-align:center; text-shadow: 0 1px 0 #FFFFFF"><span style="font-size:30px; line-height:34px; font-weight:bold">86,971</span><br />
+              Facebook viral reach, during the pre-event week</p>
+            <p style="text-align:center; text-shadow: 0 1px 0 #FFFFFF"><span style="font-size:30px; line-height:34px; font-weight:bold">1,474</span><br />
+              people who created a story on Insert, in Facebook, during the pre-event week</p>
+            <p style="text-align:center; text-shadow: 0 1px 0 #FFFFFF"><span style="font-size:30px; line-height:34px; font-weight:bold">2,507</span><br />
+              participants</p></td>
+        </tr>
+        
+        <tr>
+          <td width="800" style="padding:0">
+          <a class="lightbox" href="imgs/fotos/insert_fernando_reule-184.jpg" style="border: none;"> <img src="imgs/fotos_800/insert_fernando_reule-184.jpg" alt="Insert Team" onmouseover="this.style.opacity = '0.8'" onmouseout="this.style.opacity = '1'" /></a>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top" width="800" style="
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 14px;
+                    font-style:italic;
+                    line-height: 22px;
+                    color: #444;
+                    font-weight: 300;
+                    padding: 30px;
+                ">
+                
+                Photos: Raul Aragão and Diego Padilha (I Hate Flash), Fernando Reule, Luke Garcia and João Faraco.
+                
+                </td></tr>
+      </table></td>
+  </tr>
+</table>
+
+<!-- End of wrapper table -->
+<script src="../hey/tobii.min.js"></script>
+<script>
+  const tobii = new Tobii();
+</script>
+</body>
+</html>
