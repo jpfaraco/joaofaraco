@@ -241,6 +241,10 @@ nav a {
     margin-bottom: 1em;
 }
 
+p.collapsible:hover .title {
+    text-decoration: underline;
+}
+
 /* GALLERY */
 
 .gallery {
