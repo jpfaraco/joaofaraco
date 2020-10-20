@@ -1,8 +1,8 @@
 ---
 title: Uma conversa pra entender Bitcoin em 7 minutos
 layout: post
----
 
+---
 ![](/assets/images/2017/12/1_rIu66Q0J7zR6-yYtcmek2g-580x568.png)
     
 **Me explica o que é esse tal de *Bitcoin* que todo mundo não para de falar sobre.**
